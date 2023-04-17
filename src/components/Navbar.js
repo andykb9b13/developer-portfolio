@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav>
@@ -5,16 +8,16 @@ const Navbar = () => {
         <h2>Title</h2>
         <ul>
           <li>
-            <a href="/projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="/about">About Me</a>
+            <Link to="/about">About Me</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <a href="/resume">Resume</a>
+            <Link to="/resume">Resume</Link>
           </li>
         </ul>
       </div>
