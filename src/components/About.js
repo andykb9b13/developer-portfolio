@@ -1,10 +1,12 @@
 import React from "react";
+import ProfilePhoto from "../profile-photo-nobg.png";
 
 const About = () => {
   return (
     <section>
       <div>
         <h2>About</h2>
+        <img src={ProfilePhoto} alt="Andy Kleindienst profile" />
         <p>
           As a Full-Stack software engineer I have a passion for working
           collaboratively in groups to solve problems and provide creative
