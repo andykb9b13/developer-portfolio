@@ -1,29 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const styles = {
-  nav: {
-    display: "flex",
-    flexDirection: "column",
-    fontWeight: "bold",
-    fontSize: "1.5rem",
-    color: "white",
-    margin: "50px",
-  },
-};
-
 const Navbar = () => {
   return (
-    <header>
-      <nav>
-        <div style={styles.nav}>
-          <Link to="/projects">Projects</Link>
-          <Link to="/about">About Me</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/resume">Resume</Link>
-        </div>
+    <div>
+      <nav className="font-thin text-center text-3xl space-x-8 my-10">
+        <Link className="projects" to="projects">
+          Projects
+        </Link>
+        <Link className="about" to="about">
+          About Me
+        </Link>
+        <Link className="contact" to="contact">
+          Contact
+        </Link>
+        <Link className="resume" to="resume">
+          Resume
+        </Link>
       </nav>
-    </header>
+    </div>
   );
 };
 

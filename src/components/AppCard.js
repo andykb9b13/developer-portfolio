@@ -26,34 +26,14 @@ const AppCard = () => {
     },
   ];
 
-  const styles = {
-    appCard: {
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      margin: "20px",
-      border: "2px solid black",
-      backgroundColor: "#107E7D",
-      borderRadius: "10px",
-    },
-    image: {
-      width: "40%",
-    },
-    links: {
-      color: "white",
-      textDecoration: "none",
-    },
-  };
-
   return (
     <div>
       {apps.map((app) => (
-        <div style={styles.appCard}>
-          <h2 style={styles.links}>
+        <div>
+          <h3>
             <Link to={app.url}>{app.name} </Link>
-          </h2>
-          <img src={app.imageSrc} alt={app.altText} style={styles.image} />
+          </h3>
+          <img className="max-w-md" src={app.imageSrc} alt={app.altText} />
         </div>
       ))}
     </div>
