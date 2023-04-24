@@ -1,0 +1,10 @@
+.profile-img {
+  height: 300px;
+}
+
+.aboutDiv {
+  background-color: grey;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}

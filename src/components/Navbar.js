@@ -3,24 +3,16 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div>
-        <ul>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/about">About Me</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li>
-            <Link to="/resume">Resume</Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav>
+        <div className="d-flex justify-content-evenly">
+          <Link to="/projects">Projects</Link>
+          <Link to="/about">About Me</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/resume">Resume</Link>
+        </div>
+      </nav>
+    </header>
   );
 };
 

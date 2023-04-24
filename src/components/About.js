@@ -1,12 +1,17 @@
 import React from "react";
-import ProfilePhoto from "../profile-photo-nobg.png";
+import ProfilePhoto1 from "../assets/ProfilePhoto1.png";
+import "./About.css";
 
 const About = () => {
   return (
     <section>
-      <div>
-        <h2>About</h2>
-        <img src={ProfilePhoto} alt="Andy Kleindienst profile" />
+      <div className="">
+        <img
+          className="profile-img"
+          src={ProfilePhoto1}
+          alt="Andy Kleindienst profile"
+        />
+        <h2 className="text-3xl font-bold underline">About</h2>
         <p>
           As a Full-Stack software engineer I have a passion for working
           collaboratively in groups to solve problems and provide creative
