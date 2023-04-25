@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #044b7f;
+  color: white;
+}
+
 h2 {
   font-size: 50px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FitTrack from "../assets/FITTRACK_SYMBOL_NAVY.png";
+import FitTrack from "../assets/FitTrack-App.png";
 import ThePantry from "../assets/The-Pantry.png";
 import TechTalkToo from "../assets/Tech-Talk-Too.png";
 import ExtensionEditor from "../assets/Extension-Editor.png";
@@ -40,7 +40,7 @@ const AppCard = () => {
       alText: "Travel Weather App",
     },
     {
-      name: "Noted",
+      name: "Just Notes",
       url: "https://text-editor-fun.herokuapp.com/",
       imageSrc: Noted,
       altText: "Noted App",
