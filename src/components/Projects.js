@@ -4,12 +4,10 @@ import AppCard from "./AppCard";
 
 const Projects = () => {
   return (
-    <section>
-      <div>
-        <h2>Projects</h2>
-        <AppCard />
-      </div>
-    </section>
+    <div className="section">
+      <h2>Projects</h2>
+      <AppCard />
+    </div>
   );
 };
 
