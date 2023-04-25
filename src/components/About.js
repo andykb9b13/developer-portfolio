@@ -1,15 +1,22 @@
 import React from "react";
 import ProfileLogo from "../assets/ProfileLogo.png";
 
+const styles = {
+  card: {
+    boxShadow: "5px 5px 10px #222",
+  },
+};
+
 const About = () => {
   return (
     <div className="section">
       <img
-        className="max-w-md"
+        className="max-w-md rounded-lg overflow-hidden"
         src={ProfileLogo}
         alt="Andy Kleindienst profile"
+        style={styles.card}
       />
-      <p className="text-xl">
+      <p className="text-xl mt-5">
         As a Full-Stack software engineer I have a passion for working
         collaboratively in groups to solve problems and provide creative
         solutions. I recently earned a Full-Stack development certificate from

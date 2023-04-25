@@ -47,18 +47,24 @@ const AppCard = () => {
     },
   ];
 
+  const styles = {
+    card: {
+      boxShadow: "5px 5px 10px #222",
+    },
+  };
+
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-center">
       {apps.map((app) => (
-        <div>
-          <h3>
-            <Link to={app.url}>{app.name} </Link>
-          </h3>
-          <img
-            className="max-w-md bg-black"
-            src={app.imageSrc}
-            alt={app.altText}
-          />
+        <div className="m-2">
+          <Link to={app.url}>
+            <img
+              className="max-w-md bg-black rounded-lg overflow-hidden"
+              style={styles.card}
+              src={app.imageSrc}
+              alt={app.altText}
+            />
+          </Link>
         </div>
       ))}
     </div>
