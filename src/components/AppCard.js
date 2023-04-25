@@ -4,6 +4,8 @@ import FitTrack from "../assets/FITTRACK_SYMBOL_NAVY.png";
 import ThePantry from "../assets/The-Pantry.png";
 import TechTalkToo from "../assets/Tech-Talk-Too.png";
 import ExtensionEditor from "../assets/Extension-Editor.png";
+import TravelWeather from "../assets/Travel-Weather.png";
+import Noted from "../assets/Noted.png";
 
 const AppCard = () => {
   const apps = [
@@ -30,6 +32,18 @@ const AppCard = () => {
       url: "https://github.com/andykb9b13/Extension-Editor",
       imageSrc: ExtensionEditor,
       altText: "Extension Editor App",
+    },
+    {
+      name: "Travel Weather",
+      url: "https://andykb9b13.github.io/travel-weather-dashboard/",
+      imageSrc: TravelWeather,
+      alText: "Travel Weather App",
+    },
+    {
+      name: "Noted",
+      url: "https://text-editor-fun.herokuapp.com/",
+      imageSrc: Noted,
+      altText: "Noted App",
     },
   ];
 
