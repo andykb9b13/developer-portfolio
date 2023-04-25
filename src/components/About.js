@@ -1,11 +1,15 @@
 import React from "react";
-import ProfilePhoto1 from "../assets/ProfilePhoto1.png";
+import ProfileLogo from "../assets/ProfileLogo.png";
 
 const About = () => {
   return (
     <div className="section">
       <h2>About</h2>
-      <img src={ProfilePhoto1} alt="Andy Kleindienst profile" />
+      <img
+        className="max-w-md"
+        src={ProfileLogo}
+        alt="Andy Kleindienst profile"
+      />
       <p>
         As a Full-Stack software engineer I have a passion for working
         collaboratively in groups to solve problems and provide creative
