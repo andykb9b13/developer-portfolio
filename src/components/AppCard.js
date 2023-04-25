@@ -59,7 +59,7 @@ const AppCard = () => {
         <div className="m-2">
           <Link to={app.url}>
             <img
-              className="max-w-md bg-black rounded-lg overflow-hidden"
+              className="max-w-sm bg-black rounded-lg overflow-hidden"
               style={styles.card}
               src={app.imageSrc}
               alt={app.altText}

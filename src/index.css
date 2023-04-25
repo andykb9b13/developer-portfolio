@@ -5,6 +5,7 @@
 body {
   background-color: #044b7f;
   color: white;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h2 {
@@ -22,8 +23,9 @@ h3 {
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   border: 4px solid white;
   border-radius: 10px;
   padding: 4%;
+  background-color: #2b5a7b;
 }
