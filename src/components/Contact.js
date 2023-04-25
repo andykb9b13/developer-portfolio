@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="section">
       <h2>Contact</h2>
-      <form action="">
+      <form action="" className="section w-96">
         <label htmlFor="">Name</label>
         <input type="text" />
         <label htmlFor="">Email</label>

@@ -4,13 +4,12 @@ import ProfileLogo from "../assets/ProfileLogo.png";
 const About = () => {
   return (
     <div className="section">
-      <h2>About</h2>
       <img
         className="max-w-md"
         src={ProfileLogo}
         alt="Andy Kleindienst profile"
       />
-      <p>
+      <p className="text-xl">
         As a Full-Stack software engineer I have a passion for working
         collaboratively in groups to solve problems and provide creative
         solutions. I recently earned a Full-Stack development certificate from
