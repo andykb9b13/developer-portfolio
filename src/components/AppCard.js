@@ -80,8 +80,8 @@ const AppCard = () => {
 
   return (
     <div className="flex flex-wrap justify-center">
-      {apps.map((app) => (
-        <div className="m-2">
+      {apps.map((app, i) => (
+        <div className="m-2" key={i}>
           <h2>{app.name}</h2>
           <Link to={app.url}>
             <img

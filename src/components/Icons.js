@@ -40,8 +40,8 @@ const styles = {
 const Icons = () => {
   return (
     <div className="flex flex-wrap justify-center">
-      {iconArr.map((icon) => (
-        <img style={styles.icon} src={icon} alt="icon" />
+      {iconArr.map((icon, i) => (
+        <img style={styles.icon} src={icon} alt="icon" key={i} />
       ))}
     </div>
   );
