@@ -23,10 +23,11 @@ const About = () => {
         UNC Chapel Hill where I had experience implementing MVC architectural
         frameworks, mobile-first development, version control with Git, Node.js,
         Express.js, Sequelize.js, MongoDB, NoSql, MySql, Cloudinary, Advanced
-        Javascript, Bootstrap, Handlebars, jQuery, HTML, and CSS. In addition,
-        as a full-time professional musician/educator, I hope to leverage my
-        strong communication skills and leadership abilities to help foster a
-        high-functioning and collaborative environment within a production team.
+        Javascript, Bootstrap, Handlebars, jQuery, HTML, and CSS. In addition, I
+        hope to leverage my strong communication skills and leadership abilities
+        through my years of being a full-time professional musician to help
+        foster a high-functioning and collaborative environment within a
+        production team.
       </p>
     </div>
   );
