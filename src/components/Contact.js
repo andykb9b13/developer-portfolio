@@ -28,8 +28,8 @@ const Contact = () => {
       setErrorMessage("Please enter a valid email");
       return;
     } else {
-      setErrorMessage("");
       setSuccessMessage("You message has been sent!");
+      setErrorMessage("");
       setUserName("");
       setEmail("");
       setMessage("");
