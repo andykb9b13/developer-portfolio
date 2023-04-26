@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState("");
+  const [isActive, setIsActive] = useState("about");
   return (
     <div>
       <nav className="font-thin text-center text-3xl space-x-8 my-10">

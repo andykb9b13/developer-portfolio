@@ -14,7 +14,7 @@ const styles = {
   },
 };
 
-const AppCard = () => {
+const ProjectCard = () => {
   const apps = [
     {
       name: "FitTrack",
@@ -82,7 +82,7 @@ const AppCard = () => {
     <div className="flex flex-wrap justify-center">
       {apps.map((app, i) => (
         <div className="m-2" key={i}>
-          <h2>{app.name}</h2>
+          {/* <h2>{app.name}</h2> */}
           <Link to={app.url}>
             <img
               className="max-w-sm bg-black rounded-lg overflow-hidden"
@@ -97,4 +97,4 @@ const AppCard = () => {
   );
 };
 
-export default AppCard;
+export default ProjectCard;

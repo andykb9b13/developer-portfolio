@@ -1,12 +1,12 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import AppCard from "./AppCard";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
     <div className="section">
       <h2>Projects</h2>
-      <AppCard />
+      <ProjectCard />
     </div>
   );
 };
