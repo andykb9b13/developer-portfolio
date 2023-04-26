@@ -9,39 +9,49 @@ const Navbar = () => {
       <nav className="font-thin text-center text-3xl space-x-8 my-10">
         <h2 className="my-20 text-7xl">Andy Kleindienst | Developer</h2>
         <Link
-          className="about"
+          className="about transition duration-300"
           to="/"
           onClick={() => setIsActive("about")}
-          style={isActive === "about" ? { color: "black" } : { color: "white" }}
+          style={
+            isActive === "about"
+              ? { textShadow: "white 2px 3px 10px" }
+              : { textShadow: "none" }
+          }
         >
           About Me
         </Link>
         <Link
-          className="projects"
+          className="projects transition duration-300"
           to="/projects"
           onClick={() => setIsActive("projects")}
           style={
-            isActive === "projects" ? { color: "black" } : { color: "white" }
+            isActive === "projects"
+              ? { textShadow: "white 2px 3px 10px" }
+              : { textShadow: "none" }
           }
         >
           Projects
         </Link>
         <Link
-          className="contact"
+          className="contact transition duration-300"
           to="/contact"
           onClick={() => setIsActive("contact")}
           style={
-            isActive === "contact" ? { color: "black" } : { color: "white" }
+            isActive === "contact"
+              ? { textShadow: "white 2px 3px 10px" }
+              : { textShadow: "none" }
           }
         >
           Contact
         </Link>
         <Link
-          className="resume"
+          className="resume transition duration-300"
           to="/resume"
           onClick={() => setIsActive("resume")}
           style={
-            isActive === "resume" ? { color: "black" } : { color: "white" }
+            isActive === "resume"
+              ? { textShadow: "white 2px 3px 10px" }
+              : { textShadow: "none" }
           }
         >
           Resume
