@@ -19,6 +19,7 @@ const AppCard = () => {
     {
       name: "FitTrack",
       url: "https://fittrack.herokuapp.com/",
+      githubUrl: "https://github.com/andykb9b13/FitTrack-App",
       imageSrc: FitTrack,
       altText: "Fit Track App",
       description:
@@ -27,6 +28,7 @@ const AppCard = () => {
     {
       name: "The Pantry",
       url: "https://andykb9b13.github.io/pantryApp/",
+      githubUrl: "https://github.com/andykb9b13/pantryApp",
       imageSrc: ThePantry,
       altText: "The Pantry App",
       description:
@@ -35,6 +37,7 @@ const AppCard = () => {
     {
       name: "Tech Talk Too",
       url: "https://tech-talk-too.herokuapp.com/",
+      githubUrl: "https://github.com/andykb9b13/tech-talk-too",
       imageSrc: TechTalkToo,
       altText: "Tech Talk Too App",
       description: "A CMS-style blog for all those obsessed with talking tech.",
@@ -42,6 +45,7 @@ const AppCard = () => {
     {
       name: "Extension Editor",
       url: "https://github.com/andykb9b13/Extension-Editor",
+      githubUrl: "https://github.com/andykb9b13/Extension-Editor",
       imageSrc: ExtensionEditor,
       altText: "Extension Editor App",
       description:
@@ -50,6 +54,7 @@ const AppCard = () => {
     {
       name: "Travel Weather",
       url: "https://andykb9b13.github.io/travel-weather-dashboard/",
+      githubUrl: "https://github.com/andykb9b13/travel-weather-dashboard",
       imageSrc: TravelWeather,
       alText: "Travel Weather App",
       description: "Choose your city and get a readout of the weather.",
@@ -57,6 +62,7 @@ const AppCard = () => {
     {
       name: "Just Notes",
       url: "https://text-editor-fun.herokuapp.com/",
+      githubUrl: "https://github.com/andykb9b13/text-editor",
       imageSrc: Noted,
       altText: "Just Notes App",
       description: "A text editor for all your note taking needs.",
@@ -85,7 +91,6 @@ const AppCard = () => {
               alt={app.altText}
             />
           </Link>
-          {/* <p>{app.description}</p> */}
         </div>
       ))}
     </div>
