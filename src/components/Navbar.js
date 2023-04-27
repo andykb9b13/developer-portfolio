@@ -10,7 +10,7 @@ const Navbar = () => {
         <h2 className="my-20 text-7xl">Andy Kleindienst | Developer</h2>
         <Link
           className="about transition duration-300"
-          to="/"
+          to="/about"
           onClick={() => setIsActive("about")}
           style={
             isActive === "about"

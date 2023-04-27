@@ -7,12 +7,6 @@ import ExtensionEditor from "../assets/Extension-Editor.png";
 import TravelWeather from "../assets/Travel-Weather.png";
 import Noted from "../assets/Noted.png";
 
-const styles = {
-  card: {
-    boxShadow: "5px 5px 10px #222",
-  },
-};
-
 const ProjectCard = () => {
   const apps = [
     {
@@ -68,9 +62,6 @@ const ProjectCard = () => {
     },
   ];
 
-  // TODO need to add descriptions for the apps and add them to the cards.
-  // TODO change the state of the card on hover to show the description.
-
   return (
     <div className="flex flex-wrap justify-center">
       {apps.map((app, i) => (
@@ -79,16 +70,16 @@ const ProjectCard = () => {
             <img
               className="max-w-sm bg-black rounded-lg"
               name={app.name}
-              style={styles.card}
+              style={{ boxShadow: "5px 5px 10px #222" }}
               src={app.imageSrc}
               alt={app.altText}
             />
           </div>
           <div className="links absolute inset-0 flex flex-col items-center justify-evenly">
-            <Link className="projectLink text-3xl" to={app.url}>
+            <Link className="projectLink text-4xl" to={app.url}>
               Live Site
             </Link>
-            <Link className="projectLink text-3xl" to={app.githubUrl}>
+            <Link className="projectLink text-4xl" to={app.githubUrl}>
               GitHub Repo
             </Link>
             <p className="text-xl text-center m-2">{app.description}</p>

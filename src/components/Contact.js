@@ -36,6 +36,7 @@ const Contact = () => {
     },
   };
 
+  // Whenever something is typed in an input, the state of it will be updated
   const handleInputChange = (e) => {
     console.log("this is e in handleInput change", e);
     const { name, value } = e.target;

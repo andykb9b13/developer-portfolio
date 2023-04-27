@@ -29,7 +29,7 @@ const Resume = () => {
         </div>
       </Button>
       <div>
-        <h2 className="text-center">Technology</h2>
+        <h2 className="text-center">My Skills</h2>
         <Icons />
       </div>
     </div>

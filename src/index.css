@@ -16,6 +16,7 @@ h3 {
   font-size: 40px;
 }
 
+/* sets the formatting of each component */
 .section {
   height: auto;
   display: flex;
@@ -31,12 +32,14 @@ h3 {
   box-shadow: 3px 3px 15px black;
 }
 
+/* sets the formatting for project cards to display link info when hovered over */
 .links {
   visibility: hidden;
 }
 
 .projectContainer:hover .links {
   visibility: visible;
+  transition: visibility 0.5s ease-in-out;
 }
 
 .projectContainer:hover img {
@@ -44,10 +47,6 @@ h3 {
   transition: filter 0.5s ease-in-out;
 }
 
-.links {
-  transition: visibility 0.2s ease-in;
-}
-
 .projectLink:hover {
-  text-shadow: 3px 3px 10px white;
+  text-shadow: 2px 2px 9px white;
 }
