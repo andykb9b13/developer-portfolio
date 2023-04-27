@@ -9,20 +9,27 @@ const styles = {
     boxShadow: "5px 5px 10px #222",
     marginBottom: "20px",
     borderRadius: "5px",
-    width: "30%",
+    width: "100%",
   },
 };
 
 const Resume = () => {
   return (
-    <div className="section justify-center">
-      <h2>Technologies</h2>
+    <div className="section justify-center inline-block">
+      {/* <h2>Technologies</h2> */}
       <Button>
-        <a href={ResumePdf} download="Resume">
-          <img src={ResumeImg} alt="resume icon" style={styles.icon} />
-        </a>
+        <div>
+          <a
+            href={ResumePdf}
+            download="Resume"
+            className="w-1/2 mx-auto flex justify-center"
+          >
+            <img src={ResumeImg} alt="resume icon" style={styles.icon} />
+          </a>
+        </div>
       </Button>
       <div>
+        <h2 className="text-center">Technology</h2>
         <Icons />
       </div>
     </div>

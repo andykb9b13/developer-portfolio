@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   return (
     <div className="section">
-      <h2>Projects</h2>
+      {/* <h2>Projects</h2> */}
       <ProjectCard />
     </div>
   );

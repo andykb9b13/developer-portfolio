@@ -32,6 +32,7 @@ const Contact = () => {
       border: "1px solid white",
       borderRadius: "10px",
       margin: "10px",
+      padding: "2%",
     },
   };
 
@@ -67,6 +68,7 @@ const Contact = () => {
     }
   };
 
+  //  sets the error message back to '' when the states of name, email, and message change
   useEffect(() => {
     setErrorMessage("");
   }, [name, email, message]);
@@ -96,7 +98,7 @@ const Contact = () => {
 
   return (
     <div className="section">
-      <h2>Contact</h2>
+      {/* <h2> Contact</h2> */}
       {errorMessage && (
         <div style={styles.messages} className="animate-pulse">
           <p>{errorMessage}</p>

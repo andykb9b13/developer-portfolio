@@ -6,7 +6,7 @@ import TechTalkToo from "../assets/Tech-Talk-Too.png";
 import ExtensionEditor from "../assets/Extension-Editor.png";
 import TravelWeather from "../assets/Travel-Weather.png";
 import Noted from "../assets/Noted.png";
-// import { useState } from "react";
+import { useState } from "react";
 
 const styles = {
   card: {
@@ -72,25 +72,50 @@ const ProjectCard = () => {
   // TODO need to add descriptions for the apps and add them to the cards.
   // TODO change the state of the card on hover to show the description.
 
-  // const [isShown, setIsShown] = useState(false);
+  const [isActive, setIsActive] = useState([
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+  ]);
 
-  // function clickHandler() {
-  //   setIsShown(!isShown);
-  // }
+  function handleClick(i) {
+    const newActiveArr = [...isActive].map((active) => false);
+    newActiveArr[i] = !isActive[i];
+    setIsActive([...newActiveArr]);
+  }
 
   return (
     <div className="flex flex-wrap justify-center">
       {apps.map((app, i) => (
         <div className="m-2" key={i}>
           {/* <h2>{app.name}</h2> */}
-          <Link to={app.url}>
+          {/* <Link to={app.url}> */}
+          {isActive[i] ? (
+            <div className="max-w-sm">
+              <ul>
+                <li>
+                  <Link to={app.url}>Live Site</Link>
+                </li>
+                <li>
+                  <Link to={app.githubUrl}>Github URL</Link>
+                </li>
+              </ul>
+            </div>
+          ) : (
             <img
-              className="max-w-sm bg-black rounded-lg overflow-hidden"
+              className="max-w-sm bg-black rounded-lg"
+              name={app.name}
               style={styles.card}
               src={app.imageSrc}
               alt={app.altText}
+              onClick={() => handleClick(i)}
             />
-          </Link>
+          )}
+
+          {/* </Link> */}
         </div>
       ))}
     </div>
