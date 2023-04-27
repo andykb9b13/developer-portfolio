@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.0c5bd51d.css",
-    "main.js": "/developer-portfolio/static/js/main.fb7df1cc.js",
-    "static/js/787.d0fc6f61.chunk.js": "/developer-portfolio/static/js/787.d0fc6f61.chunk.js",
-    "static/media/ProfilePhoto1.png": "/developer-portfolio/static/media/ProfilePhoto1.af77b87ca4ae4dae9d59.png",
-    "static/media/TechTalkToo-App.png": "/developer-portfolio/static/media/TechTalkToo-App.2110ae055d5633ed2f9c.png",
-    "static/media/ThePantry-App.png": "/developer-portfolio/static/media/ThePantry-App.6b2eeca2fd7bfc778a6f.png",
-    "static/media/FitTrack-App.png": "/developer-portfolio/static/media/FitTrack-App.cd21ea3b2db1f2c7069b.png",
-    "index.html": "/developer-portfolio/index.html",
-    "main.0c5bd51d.css.map": "/developer-portfolio/static/css/main.0c5bd51d.css.map",
-    "main.fb7df1cc.js.map": "/developer-portfolio/static/js/main.fb7df1cc.js.map",
-    "787.d0fc6f61.chunk.js.map": "/developer-portfolio/static/js/787.d0fc6f61.chunk.js.map"
+    "main.css": "/developer-profile/static/css/main.9271056c.css",
+    "main.js": "/developer-profile/static/js/main.41b00631.js",
+    "static/media/ProfileLogo.png": "/developer-profile/static/media/ProfileLogo.fdeeb9a1f148cea96b94.png",
+    "static/media/Noted.png": "/developer-profile/static/media/Noted.0266cbb5635645c2a6a8.png",
+    "static/media/Resume.pdf": "/developer-profile/static/media/Resume.539d3d5a3a2bc5c3886a.pdf",
+    "static/media/The-Pantry.png": "/developer-profile/static/media/The-Pantry.dedd4fdafde3ec17203d.png",
+    "static/media/Tech-Talk-Too.png": "/developer-profile/static/media/Tech-Talk-Too.498d8ff80e507bad1777.png",
+    "static/media/FitTrack-App.png": "/developer-profile/static/media/FitTrack-App.5f237fec659ed2f43c9c.png",
+    "static/media/Extension-Editor.png": "/developer-profile/static/media/Extension-Editor.2a0c3d5fa3b45fdc9344.png",
+    "static/media/react.png": "/developer-profile/static/media/react.b19a7ea62269e54657b2.png",
+    "static/media/sequelize.png": "/developer-profile/static/media/sequelize.a3fbbde58217e0c1a1c5.png",
+    "static/media/Travel-Weather.png": "/developer-profile/static/media/Travel-Weather.51247d06f9eb17149130.png",
+    "static/media/Resume.png": "/developer-profile/static/media/Resume.b12507d18366e951d375.png",
+    "static/media/bootstrap.png": "/developer-profile/static/media/bootstrap.b843cb055a10f45fea29.png",
+    "static/media/jest.png": "/developer-profile/static/media/jest.3fc25e2e65d9bececa7f.png",
+    "static/media/html5.png": "/developer-profile/static/media/html5.6e4a5621783c3c8c0667.png",
+    "static/media/css3.png": "/developer-profile/static/media/css3.68ba79f50e3278164cb8.png",
+    "static/media/mongodb.png": "/developer-profile/static/media/mongodb.c2e580440ebd139cc1e0.png",
+    "static/media/jquery.png": "/developer-profile/static/media/jquery.debe54dd42c68b7387c9.png",
+    "index.html": "/developer-profile/index.html",
+    "main.9271056c.css.map": "/developer-profile/static/css/main.9271056c.css.map",
+    "main.41b00631.js.map": "/developer-profile/static/js/main.41b00631.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c5bd51d.css",
-    "static/js/main.fb7df1cc.js"
+    "static/css/main.9271056c.css",
+    "static/js/main.41b00631.js"
   ]
 }
