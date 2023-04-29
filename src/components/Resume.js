@@ -17,6 +17,7 @@ const Resume = () => {
   return (
     <div className="section justify-center inline-block">
       {/* <h2>Technologies</h2> */}
+      <p>(click to download)</p>
       <Button>
         <div>
           <a
