@@ -6,9 +6,18 @@ import TechTalkToo from "../assets/Tech-Talk-Too.png";
 import ExtensionEditor from "../assets/Extension-Editor.png";
 import TravelWeather from "../assets/Travel-Weather.png";
 import Noted from "../assets/Noted.png";
+import LaunchPad from "../assets/Launch-Pad.png";
 
 const ProjectCard = () => {
   const apps = [
+    {
+      name: "Launch Pad",
+      url: "https://launch-pad.herokuapp.com/",
+      githubUrl: "https://github.com/andykb9b13/Launch-Pad",
+      imageSrc: LaunchPad,
+      alText: "Launch Pad",
+      description: "A MERN small-business funding application",
+    },
     {
       name: "FitTrack",
       url: "https://fittrack.herokuapp.com/",
@@ -43,14 +52,6 @@ const ProjectCard = () => {
       altText: "Extension Editor App",
       description:
         "A command line application for editing unwanted extensions.",
-    },
-    {
-      name: "Travel Weather",
-      url: "https://andykb9b13.github.io/travel-weather-dashboard/",
-      githubUrl: "https://github.com/andykb9b13/travel-weather-dashboard",
-      imageSrc: TravelWeather,
-      alText: "Travel Weather App",
-      description: "Choose your city and get a readout of the weather.",
     },
     {
       name: "Just Notes",
