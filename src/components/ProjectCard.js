@@ -4,7 +4,6 @@ import FitTrack from "../assets/FitTrack-App.png";
 import ThePantry from "../assets/The-Pantry.png";
 import TechTalkToo from "../assets/Tech-Talk-Too.png";
 import ExtensionEditor from "../assets/Extension-Editor.png";
-import TravelWeather from "../assets/Travel-Weather.png";
 import Noted from "../assets/Noted.png";
 import LaunchPad from "../assets/Launch-Pad.png";
 

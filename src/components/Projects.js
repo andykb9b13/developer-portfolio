@@ -1,12 +1,17 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="section">
+    <motion.div
+      className="section"
+      initial={{ x: 1000, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -1000, opacity: 0, transition: { duration: 0.5 } }}
+    >
       <ProjectCard />
-    </div>
+    </motion.div>
   );
 };
 
