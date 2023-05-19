@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileLogo from "../assets/ProfileLogo.png";
+import { motion } from "framer-motion";
 
 const styles = {
   card: {
@@ -9,7 +10,12 @@ const styles = {
 
 const About = () => {
   return (
-    <div className="section">
+    <motion.div
+      className="section"
+      initial={{ x: 1000, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -1000, opacity: 0, transition: { duration: 0.5 } }}
+    >
       <img
         className="max-w-md rounded-lg overflow-hidden"
         src={ProfileLogo}
@@ -29,7 +35,7 @@ const About = () => {
         foster a high-functioning and collaborative environment within a
         production team.
       </p>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { validateEmail } from "../utils/helpers";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const [name, setname] = useState("");
@@ -98,7 +99,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="section">
+    <motion.div
+      className="section"
+      initial={{ x: 1000, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -1000, opacity: 0, transition: { duration: 0.5 } }}
+    >
       {/* <h2> Contact</h2> */}
       {errorMessage && (
         <div style={styles.messages} className="animate-pulse">
@@ -161,7 +167,7 @@ const Contact = () => {
           Submit
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 
