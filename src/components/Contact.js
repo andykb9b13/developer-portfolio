@@ -110,7 +110,7 @@ const Contact = () => {
           <p>{successMessage}</p>
         </div>
       )}
-      <form action="" className="section text-black w-5/6">
+      <form className="section text-black w-5/6">
         <label style={styles.labels} htmlFor="">
           Name
         </label>
@@ -150,8 +150,9 @@ const Contact = () => {
           className="w-4/6 h-80"
           onBlur={handleBlur}
         ></textarea>
+        <input type="hidden" name="_gotcha"></input>
         <button
-          type="button"
+          type="submit"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           style={styles.button}
