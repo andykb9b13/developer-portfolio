@@ -16,7 +16,6 @@ const styles = {
 const Resume = () => {
   return (
     <div className="section justify-center inline-block">
-      {/* <h2>Technologies</h2> */}
       <p>(click to download)</p>
       <Button>
         <div>
@@ -27,6 +26,7 @@ const Resume = () => {
           >
             <img src={ResumeImg} alt="resume icon" style={styles.icon} />
           </a>
+          <h2>Email: andy.kleindienst@gmail.com</h2>
         </div>
       </Button>
       <div>
