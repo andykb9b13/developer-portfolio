@@ -99,13 +99,8 @@ const Contact = () => {
   };
 
   return (
-    <motion.div
-      className="section"
-      initial={{ x: 1000, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: -1000, opacity: 0, transition: { duration: 0.5 } }}
-    >
-      {/* <h2> Contact</h2> */}
+    <div className="section">
+      <h2>Email: andy.kleindienst@gmail.com</h2>
       {errorMessage && (
         <div style={styles.messages} className="animate-pulse">
           <p>{errorMessage}</p>
@@ -167,7 +162,7 @@ const Contact = () => {
           Submit
         </button>
       </form>
-    </motion.div>
+    </div>
   );
 };
 

@@ -10,18 +10,23 @@ const styles = {
 
 const About = () => {
   return (
-    <motion.div
-      className="section"
-      initial={{ x: 1000, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: -1000, opacity: 0, transition: { duration: 0.5 } }}
-    >
-      <img
-        className="max-w-md rounded-lg overflow-hidden"
-        src={ProfileLogo}
-        alt="Andy Kleindienst profile"
-        style={styles.card}
-      />
+    <div className="section">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.1 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 1,
+          delay: 0.1,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
+        <img
+          className="max-w-md rounded-lg overflow-hidden"
+          src={ProfileLogo}
+          alt="Andy Kleindienst profile"
+          style={styles.card}
+        />
+      </motion.div>
       <p className="text-xl mt-5">
         As a Full-Stack software engineer I have a passion for working
         collaboratively in groups to solve problems and provide creative
@@ -35,7 +40,7 @@ const About = () => {
         foster a high-functioning and collaborative environment within a
         production team.
       </p>
-    </motion.div>
+    </div>
   );
 };
 

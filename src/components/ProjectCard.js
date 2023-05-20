@@ -6,6 +6,7 @@ import TechTalkToo from "../assets/Tech-Talk-Too.png";
 import ExtensionEditor from "../assets/Extension-Editor.png";
 import Noted from "../assets/Noted.png";
 import LaunchPad from "../assets/Launch-Pad.png";
+import { motion } from "framer-motion";
 
 const ProjectCard = () => {
   const apps = [
@@ -65,10 +66,20 @@ const ProjectCard = () => {
   return (
     <div className="flex flex-wrap justify-center">
       {apps.map((app, i) => (
-        <div className="projectContainer m-2 relative" key={i}>
+        <motion.div
+          className="projectContainer m-2 relative"
+          key={i}
+          initial={{ opacity: 0, scale: 0.1 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 1,
+            delay: Math.random() * 2,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
           <div className="imgContainer">
             <img
-              className="max-w-sm bg-black rounded-lg"
+              className="max-w-xs bg-black rounded-lg"
               name={app.name}
               style={{ boxShadow: "5px 5px 10px #222" }}
               src={app.imageSrc}
@@ -84,7 +95,7 @@ const ProjectCard = () => {
             </Link>
             <p className="text-xl text-center m-2">{app.description}</p>
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
   );
