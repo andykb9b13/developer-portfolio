@@ -9,13 +9,13 @@ const Footer = () => {
       <ul className="flex justify-center mx-auto">
         <li>
           <a href="https://github.com/andykb9b13">
-            <img className="bg-white w-32 m-2" src={GitHub} alt="gitHub Logo" />
+            <img className="bg-white w-24 m-2" src={GitHub} alt="gitHub Logo" />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/andy-kleindienst-12283226b/">
             <img
-              className="bg-white w-32 m-2"
+              className="bg-white w-24 m-2"
               src={LinkedInLogo}
               alt="linkedIn Logo"
             />
@@ -24,7 +24,7 @@ const Footer = () => {
         <li>
           <a href="https://www.facebook.com/andy.kleindienst.1/">
             <img
-              className="bg-white w-32 m-2"
+              className="bg-white w-24 m-2"
               src={FaceBookLogo}
               alt="FaceBook Logo"
             />

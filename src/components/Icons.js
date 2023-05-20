@@ -11,6 +11,7 @@ import mysql from "../assets/tech-icons/mysql.png";
 import nodejs from "../assets/tech-icons/nodejs.png";
 import react from "../assets/tech-icons/react.png";
 import sequelize from "../assets/tech-icons/sequelize.png";
+import { motion } from "framer-motion";
 
 const iconArr = [
   Bootstrap,
@@ -41,7 +42,19 @@ const Icons = () => {
   return (
     <div className="flex flex-wrap justify-center">
       {iconArr.map((icon, i) => (
-        <img style={styles.icon} src={icon} alt="icon" key={i} />
+        <motion.img
+          style={styles.icon}
+          src={icon}
+          alt="icon"
+          key={i}
+          initial={{ opacity: 0, scale: 0.1 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 1,
+            delay: Math.random() * 2,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        />
       ))}
     </div>
   );
