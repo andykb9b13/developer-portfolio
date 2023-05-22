@@ -38,25 +38,39 @@ const styles = {
   },
 };
 
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.3,
+    },
+  },
+};
+
+const item = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1 },
+};
+
 const Icons = () => {
   return (
-    <div className="flex flex-wrap justify-center">
+    <motion.div
+      className="flex flex-wrap justify-center"
+      variants={container}
+      initial="hidden"
+      animate="show"
+    >
       {iconArr.map((icon, i) => (
         <motion.img
           style={styles.icon}
           src={icon}
           alt="icon"
           key={i}
-          initial={{ opacity: 0, scale: 0.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 1,
-            delay: Math.random() * 2,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
+          variants={item}
         />
       ))}
-    </div>
+    </motion.div>
   );
 };
 

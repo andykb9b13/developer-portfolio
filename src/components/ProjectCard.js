@@ -63,19 +63,33 @@ const ProjectCard = () => {
     },
   ];
 
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.5,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
+  };
+
   return (
-    <div className="flex flex-wrap justify-center">
+    <motion.div
+      className="flex flex-wrap justify-center"
+      variants={container}
+      initial="hidden"
+      animate="show"
+    >
       {apps.map((app, i) => (
         <motion.div
           className="projectContainer m-2 relative"
           key={i}
-          initial={{ opacity: 0, scale: 0.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 1,
-            delay: Math.random() * 2,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
+          variants={item}
         >
           <div className="imgContainer">
             <img
@@ -93,11 +107,12 @@ const ProjectCard = () => {
             <Link className="projectLink text-4xl" to={app.githubUrl}>
               GitHub Repo
             </Link>
-            <p className="text-xl text-center m-2">{app.description}</p>
+            <button className="detailsBtn">Learn More</button>
+            <div>This is the modal</div>
           </div>
         </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
