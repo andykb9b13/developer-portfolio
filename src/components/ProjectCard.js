@@ -107,7 +107,8 @@ const ProjectCard = () => {
             <Link className="projectLink text-4xl" to={app.githubUrl}>
               GitHub Repo
             </Link>
-            <p className="text-xl text-center m-2">{app.description}</p>
+            <button className="detailsBtn">Learn More</button>
+            <div>This is the modal</div>
           </div>
         </motion.div>
       ))}
