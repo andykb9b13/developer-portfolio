@@ -111,7 +111,11 @@ const Contact = () => {
           <p>{successMessage}</p>
         </div>
       )}
-      <form className="section text-black w-5/6">
+      <form
+        className="section text-black w-5/6"
+        action="https://getform.io/f/5dce63cd-5bb9-46a8-b7f0-de489bca26c1"
+        method="POST"
+      >
         <label style={styles.labels} htmlFor="">
           Name
         </label>
@@ -144,6 +148,7 @@ const Contact = () => {
         <textarea
           name="message"
           id="message"
+          type="text"
           value={message}
           onChange={handleInputChange}
           style={styles.inputs}
@@ -151,7 +156,7 @@ const Contact = () => {
           className="w-4/6 h-80"
           onBlur={handleBlur}
         ></textarea>
-        <input type="hidden" name="_gotcha"></input>
+        {/* <input type="hidden" name="_gotcha"></input> */}
         <button
           type="submit"
           onMouseEnter={handleMouseEnter}
