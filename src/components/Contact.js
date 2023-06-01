@@ -148,6 +148,7 @@ const Contact = () => {
         <textarea
           name="message"
           id="message"
+          type="text"
           value={message}
           onChange={handleInputChange}
           style={styles.inputs}
@@ -155,7 +156,7 @@ const Contact = () => {
           className="w-4/6 h-80"
           onBlur={handleBlur}
         ></textarea>
-        <input type="hidden" name="_gotcha"></input>
+        {/* <input type="hidden" name="_gotcha"></input> */}
         <button
           type="submit"
           onMouseEnter={handleMouseEnter}
