@@ -116,6 +116,7 @@ const Contact = () => {
         action="https://getform.io/f/5dce63cd-5bb9-46a8-b7f0-de489bca26c1"
         method="POST"
       >
+        <input type="hidden" name="_gotcha" style={{ display: "none" }}></input>
         <label style={styles.labels} htmlFor="">
           Name
         </label>
