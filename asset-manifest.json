@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.14f602cc.css",
-    "main.js": "/developer-portfolio/static/js/main.482a9a2b.js",
+    "main.js": "/developer-portfolio/static/js/main.31b396b5.js",
     "static/media/ProfileLogo.png": "/developer-portfolio/static/media/ProfileLogo.fdeeb9a1f148cea96b94.png",
-    "static/media/Resume.pdf": "/developer-portfolio/static/media/Resume.4dcb23eef47d56c006c7.pdf",
+    "static/media/Resume.pdf": "/developer-portfolio/static/media/Resume.912c659d5a443a824eb6.pdf",
     "static/media/Launch-Pad.png": "/developer-portfolio/static/media/Launch-Pad.8811bcb5521b1660cf41.png",
-    "static/media/Noted.png": "/developer-portfolio/static/media/Noted.0266cbb5635645c2a6a8.png",
     "static/media/The-Pantry.png": "/developer-portfolio/static/media/The-Pantry.dedd4fdafde3ec17203d.png",
     "static/media/Tech-Talk-Too.png": "/developer-portfolio/static/media/Tech-Talk-Too.498d8ff80e507bad1777.png",
     "static/media/FitTrack-App.png": "/developer-portfolio/static/media/FitTrack-App.5f237fec659ed2f43c9c.png",
     "static/media/Extension-Editor.png": "/developer-portfolio/static/media/Extension-Editor.2a0c3d5fa3b45fdc9344.png",
     "static/media/react.png": "/developer-portfolio/static/media/react.b19a7ea62269e54657b2.png",
+    "static/media/studioHubLogo.png": "/developer-portfolio/static/media/studioHubLogo.ff5efd54d44e7dab3265.png",
     "static/media/sequelize.png": "/developer-portfolio/static/media/sequelize.a3fbbde58217e0c1a1c5.png",
     "static/media/Resume.png": "/developer-portfolio/static/media/Resume.b12507d18366e951d375.png",
     "static/media/bootstrap.png": "/developer-portfolio/static/media/bootstrap.b843cb055a10f45fea29.png",
@@ -21,10 +21,10 @@
     "static/media/jquery.png": "/developer-portfolio/static/media/jquery.debe54dd42c68b7387c9.png",
     "index.html": "/developer-portfolio/index.html",
     "main.14f602cc.css.map": "/developer-portfolio/static/css/main.14f602cc.css.map",
-    "main.482a9a2b.js.map": "/developer-portfolio/static/js/main.482a9a2b.js.map"
+    "main.31b396b5.js.map": "/developer-portfolio/static/js/main.31b396b5.js.map"
   },
   "entrypoints": [
     "static/css/main.14f602cc.css",
-    "static/js/main.482a9a2b.js"
+    "static/js/main.31b396b5.js"
   ]
 }
