@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.14f602cc.css",
-    "main.js": "/developer-portfolio/static/js/main.31b396b5.js",
+    "main.css": "/developer-portfolio/static/css/main.9e7ad3f1.css",
+    "main.js": "/developer-portfolio/static/js/main.ecbbdb2e.js",
     "static/media/ProfileLogo.png": "/developer-portfolio/static/media/ProfileLogo.fdeeb9a1f148cea96b94.png",
     "static/media/Resume.pdf": "/developer-portfolio/static/media/Resume.912c659d5a443a824eb6.pdf",
     "static/media/Launch-Pad.png": "/developer-portfolio/static/media/Launch-Pad.8811bcb5521b1660cf41.png",
@@ -20,11 +20,11 @@
     "static/media/mongodb.png": "/developer-portfolio/static/media/mongodb.c2e580440ebd139cc1e0.png",
     "static/media/jquery.png": "/developer-portfolio/static/media/jquery.debe54dd42c68b7387c9.png",
     "index.html": "/developer-portfolio/index.html",
-    "main.14f602cc.css.map": "/developer-portfolio/static/css/main.14f602cc.css.map",
-    "main.31b396b5.js.map": "/developer-portfolio/static/js/main.31b396b5.js.map"
+    "main.9e7ad3f1.css.map": "/developer-portfolio/static/css/main.9e7ad3f1.css.map",
+    "main.ecbbdb2e.js.map": "/developer-portfolio/static/js/main.ecbbdb2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.14f602cc.css",
-    "static/js/main.31b396b5.js"
+    "static/css/main.9e7ad3f1.css",
+    "static/js/main.ecbbdb2e.js"
   ]
 }
