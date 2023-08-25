@@ -4,12 +4,20 @@ import FitTrack from "../assets/FitTrack-App.png";
 import ThePantry from "../assets/The-Pantry.png";
 import TechTalkToo from "../assets/Tech-Talk-Too.png";
 import ExtensionEditor from "../assets/Extension-Editor.png";
-import Noted from "../assets/Noted.png";
+import studioHubLogo from "../assets/studioHubLogo.png";
 import LaunchPad from "../assets/Launch-Pad.png";
 import { motion } from "framer-motion";
 
 const ProjectCard = () => {
   const apps = [
+    {
+      name: "StudioHub",
+      url: "https://studio-hub-2240901ba348.herokuapp.com/",
+      githubUrl: "https://github.com/andykb9b13/studio-app",
+      imageSrc: studioHubLogo,
+      altText: "StudioHub App",
+      description: "A management application for private teaching studios",
+    },
     {
       name: "Launch Pad",
       url: "https://launch-pad.herokuapp.com/",
@@ -52,14 +60,6 @@ const ProjectCard = () => {
       altText: "Extension Editor App",
       description:
         "A command line application for editing unwanted extensions.",
-    },
-    {
-      name: "Just Notes",
-      url: "https://text-editor-fun.herokuapp.com/",
-      githubUrl: "https://github.com/andykb9b13/text-editor",
-      imageSrc: Noted,
-      altText: "Just Notes App",
-      description: "A text editor for all your note taking needs.",
     },
   ];
 
